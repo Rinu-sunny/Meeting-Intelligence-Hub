@@ -1,0 +1,18 @@
+# Dependencies
+node_modules/
+
+# API Keys and Secrets (CRITICAL)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js Build Output
+.next/
+out/
+build/
+
+# OS Metadata
+.DS_Store
+Thumbs.db

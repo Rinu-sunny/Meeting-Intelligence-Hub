@@ -1,0 +1,25 @@
+{
+  "name": "meeting-intelligence-hub",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "dev": "next dev",
+  "build": "next build",
+  "start": "next start",
+  "lint": "next lint"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.101.1",
+    "dotenv": "^17.3.1",
+    "lucide-react": "^0.542.0",
+    "next": "^16.2.2",
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "@types/react": "^18.3.23",
+    "@types/react-dom": "^18.3.7",
+    "typescript": "^5.9.2"
+  }
+}
