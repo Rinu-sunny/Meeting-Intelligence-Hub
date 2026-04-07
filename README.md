@@ -24,7 +24,19 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
 2. **Install dependencies:**
     ```bash
     npm install
-3. **Run locally:**
-  ```bash
-    npm run dev
+3. **Run locally:** 
+   ```bash
+     npm run dev
+   
+5. Local AI Setup (Ollama)
+   To run the intelligence engine locally:
+   1. **Install Ollama:** Download from [ollama.com](https://ollama.com).
+   2. **Pull the Model:** Open your terminal and run the model you've configured (e.g., Llama 3.2):
+      ```bash
+      ollama pull llama3.2
+   3.Keep the Server Running: Ensure the Ollama app is active in your system tray
+      or
+      ```bash
+         run ollama serve.
+ The project connects via http://localhost:11434.
   
