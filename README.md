@@ -35,8 +35,8 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
       ```bash
       ollama pull llama3.2
    3.**Keep the Server Running:** Ensure the Ollama app is active in your system tray
-      or
+       or
       ```bash
-         run ollama serve.
- The project connects via http://localhost:11434.
+      run ollama serve.
+The project connects via http://localhost:11434.
   
