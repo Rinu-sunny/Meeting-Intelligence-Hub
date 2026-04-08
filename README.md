@@ -16,14 +16,27 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
 - **Backend/Database:** Supabase (Auth, PostgreSQL, Vector Store) 
 - **AI Models:** Ollama (Local G15 Server) & Groq (Cloud Failover) 
 - **UI:** Tailwind CSS, Shadcn/UI, Lucide React
+  
+## 📄 Documentation
+> **Important:** For a full technical breakdown of the architecture, database schema, and design decisions, please refer to the official document:
+> 
+> [**View Software Design Document (PDF)**](https://github.com/Rinu-sunny/Meeting-Intelligence-Hub/design document MinAI.pdf)
 
 ## Setup Instructions
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/Rinu-sunny/Meeting-Intelligence-Hub.git]
 2. **Install dependencies:**
-    ```bash
+       ```bash
     npm install
+
+3. **Configure Environment Variables:**
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
+   NEXT_PUBLIC_AI_STRATEGY=local
+   NEXT_PUBLIC_OLLAMA_URL=http://localhost:11434
+   GROQ_API_KEY=your_groq_key
+    
      
 4. Local AI Setup (Ollama)
    To run the intelligence engine locally:
@@ -36,7 +49,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
       ```bash
       run ollama serve.
   The project connects via http://localhost:11434.
-3. **Run locally:** 
+4. **Run locally:** 
    ```bash
      npm run dev
   
