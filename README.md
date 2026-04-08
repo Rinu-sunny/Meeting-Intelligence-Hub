@@ -31,11 +31,11 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
     npm install
 
 3. **Configure Environment Variables:.env.local**            
-   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-   NEXT_PUBLIC_AI_STRATEGY=local
-   NEXT_PUBLIC_OLLAMA_URL=http://localhost:11434
-   GROQ_API_KEY=your_groq_key
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url             
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key             
+   NEXT_PUBLIC_AI_STRATEGY=local                
+   NEXT_PUBLIC_OLLAMA_URL=http://localhost:11434           
+   GROQ_API_KEY=your_groq_key           
     
      
 4. Local AI Setup (Ollama)
