@@ -17,7 +17,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
 - **AI Models:** Ollama (Local G15 Server) & Groq (Cloud Failover) 
 - **UI:** Tailwind CSS, Shadcn/UI, Lucide React
   
-## 📄 Documentation
+##  Documentation
 > **Important:** For a full technical breakdown of the architecture, database schema, and design decisions, please refer to the official document:
 > 
 > [**View Software Design Document (PDF)**](https://github.com/Rinu-sunny/Meeting-Intelligence-Hub/blob/main/design%20document%20MinAI.pdf)
@@ -44,13 +44,13 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
    2. **Pull the Model:** Open your terminal and run the model you've configured (e.g., Llama 3.2):
       ```bash
       ollama pull llama3.2
-    3.**Keep the Server Running:** Ensure the Ollama app is active in your system tray
+     3.**Keep the Server Running:** Ensure the Ollama app is active in your system tray
        or
       ```bash
        run ollama serve.
   The project connects via http://localhost:11434.              
 
-  
+
 5. **Run locally:** 
    ```bash
      npm run dev
