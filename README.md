@@ -30,7 +30,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
        ```bash
     npm install
 
-3. **Configure Environment Variables:.env.local**
+3. **Configure Environment Variables:.env.local**            
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
    NEXT_PUBLIC_AI_STRATEGY=local
@@ -47,9 +47,11 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
     3.**Keep the Server Running:** Ensure the Ollama app is active in your system tray
        or
       ```bash
-      run ollama serve.
-  The project connects via http://localhost:11434.
-4. **Run locally:** 
+       run ollama serve.
+  The project connects via http://localhost:11434.              
+
+  
+5. **Run locally:** 
    ```bash
      npm run dev
   
