@@ -20,7 +20,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
 ## 📄 Documentation
 > **Important:** For a full technical breakdown of the architecture, database schema, and design decisions, please refer to the official document:
 > 
-> [**View Software Design Document (PDF)**](https://github.com/Rinu-sunny/Meeting-Intelligence-Hub/design document MinAI.pdf)
+> [**View Software Design Document (PDF)**](https://github.com/Rinu-sunny/Meeting-Intelligence-Hub/blob/main/design%20document%20MinAI.pdf)
 
 ## Setup Instructions
 1. **Clone the repository:**
