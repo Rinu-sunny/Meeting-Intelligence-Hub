@@ -30,7 +30,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
        ```bash
     npm install
 
-3. **Configure Environment Variables:**
+3. **Configure Environment Variables:.env.local**
    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
    NEXT_PUBLIC_AI_STRATEGY=local
