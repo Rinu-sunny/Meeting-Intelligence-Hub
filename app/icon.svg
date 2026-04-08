@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="triangleGradient" x1="10" y1="56" x2="54" y2="8" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8FA6FF"/>
+      <stop offset="1" stop-color="#2D52F5"/>
+    </linearGradient>
+  </defs>
+  <path d="M32 8L56 54H8L32 8Z" fill="url(#triangleGradient)"/>
+</svg>

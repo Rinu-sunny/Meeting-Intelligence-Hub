@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+:root {
+  --brand-blue: #3b5bff;
+  --brand-ink: #111827;
+  --surface-white: #ffffff;
+  --pastel-accent: #e9e3ff;
+  --text-primary: var(--brand-ink);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at 12% 12%, var(--pastel-accent) 0%, transparent 42%),
+    linear-gradient(180deg, #f8faff 0%, #f5f7ff 42%, #f7f8fc 100%);
+  color: var(--text-primary);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--brand-blue) 25%, white);
+  color: var(--brand-ink);
+}

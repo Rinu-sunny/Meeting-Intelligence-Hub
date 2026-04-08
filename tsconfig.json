@@ -19,7 +19,6 @@
       "react-dom",
       "node"
     ],
-    "baseUrl": ".",
     "paths": {
       "@/*": [
         "./*"
@@ -42,6 +41,7 @@
     ".next/dev/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "meeting-insights-ai/**"
   ]
 }
