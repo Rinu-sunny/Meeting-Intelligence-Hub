@@ -1,5 +1,5 @@
-# Meeting Intelligence Hub (MeetingAI)
-
+# MinAI-Meeting Intelligence Hub 
+>[**View project demo**](https://drive.google.com/file/d/1qhEjlZCTG5j0l_nZvUyTgdFv0-bo6KPz/view?usp=drive_link)
 ## The Problem
 Corporate professionals and project teams lose hours every week manually documenting meeting minutes and chasing down action items. Important decisions often get buried in long transcripts, and the emotional context (e.g., team burnout or conflict) is completely lost in text-based summaries. Nobody has the time to read through full transcripts to find one specific detail. 
 
@@ -21,7 +21,7 @@ MinAI is a hybrid AI-powered intelligence platform that transforms raw meeting a
 > **Important:** For a full technical breakdown of the architecture, database schema, and design decisions, please refer to the official document:
 > 
 > [**View Software Design Document (PDF)**](https://github.com/Rinu-sunny/Meeting-Intelligence-Hub/blob/main/design%20document%20MinAI.pdf)   
-> [**View project demo**](https://drive.google.com/file/d/1qhEjlZCTG5j0l_nZvUyTgdFv0-bo6KPz/view?usp=drive_link)
+> 
 
 ## Setup Instructions
 1. **Clone the repository:**
